@@ -20,7 +20,7 @@ var namespace = jQuery || window;
         // the _plugin_ config based on passed in options
         if(opts){
             options = jq.extend({}, opts || {});
-            if(options.events &amp;&amp; namespace.Events){
+            if(options.events && namespace.Events){
                 jq.extend( this, new Events(), options.events ); 
             }
         }
