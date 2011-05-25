@@ -9,9 +9,9 @@ var namespace = jQuery || window;
  
 (function (jq,namespace) {
     var options = {
-        option: 'blah',
-        evented: true,
-        debug: false
+         option: 'blah'
+        ,evented: true
+        ,debug: false
     };
         
     /* _Plugin_ v0.9 */
@@ -41,7 +41,7 @@ var namespace = jQuery || window;
             while(count--){
                 var element = this.elements[count] = jq(this.elements[count]);
                 element.data("_plugin_",this);
-            };
+            }
  
             return this;
         }
