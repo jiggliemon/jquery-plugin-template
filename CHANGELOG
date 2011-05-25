@@ -1,0 +1,15 @@
+# jQuery Plugin Template Changelog
+
+## v.09
+- Made the plugin extensable (OO)
+- Added the instance to the elements themselves; accessable via `el.data("_plugin_")`
+- Changed usage from a single element to many
+- Avoiding the `$` function all together lest there be conflicts w/ other - better libraries.
+- Added Support for `Events`.
+
+## v.08
+- We've removed `returnjQuery` and `_return()` since they’re annoying
+- You can access the jQuery object at `$this.element`
+- `init()` is private since it should only be ran once
+- Currently we only use the first element if you have a collection when calling `$()._plugin_();` we will add better support in a later version
+- Added some events and event functions by default

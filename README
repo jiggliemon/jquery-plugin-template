@@ -1,0 +1,19 @@
+# jQuery Plugin Template
+
+A boilerplate jQuery Plugin template
+
+## To Get Started
+- Replace `_plugin_` with your lowercase plugin name
+- Replace `_Plugin_` with your uppercase plugin name (Constructor)
+- Public functions are written as `$this.fnName = function () {}`
+- Private functions are written as `var fnName = function () {}`
+
+## Requirements
+
+The only requirement is jQuery. Any version will do as long as the jQuery functions you use are supported.
+
+## Credits & Licensing
+
+Released under the MIT License. See LICENSE file for info.
+
+View original post at http://blog.agroism.com/post/3505743106/jquery-plugin-template
