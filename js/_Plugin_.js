@@ -5,13 +5,12 @@
     replace _Plugin_
       - the uppercase name of your plugin (Contructor)
 */
+(function (jq,namespace) {
 // if namespace already exists, attach this plugin to it.
 // oterwise we'll attach it to the jQuery object, then 
 // if still not, we'll attach it to window.  Cause we're gangster
 // like that.  We do this to avoid collisions, and to allow for
 // a orgionizational namespace.
- 
-(function (jq,namespace) {
 if(!namespace) namespace = jq;
 
     var options = {
