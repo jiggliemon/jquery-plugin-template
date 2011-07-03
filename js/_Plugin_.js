@@ -11,7 +11,7 @@
 // if still not, we'll attach it to window.  Cause we're gangster
 // like that.  We do this to avoid collisions, and to allow for
 // a orgionizational namespace.
-if(!namespace) namespace = jq;
+namespace || (namespace = jq);
 
     var options = {
          option: 'blah'
