@@ -40,8 +40,8 @@ namespace || (namespace = jq);
             
             // Get the _plugin_ element(s)
             this.elements = jq(elements)
-            var count = this.elements.length;
-            ,element;
+            var  count = this.elements.length
+                ,element;
 
             // Do some processing to the element(s)
             // looping with .each is slow. And looping backwards is FAST
@@ -55,7 +55,7 @@ namespace || (namespace = jq);
     };
  
     // jQuery bridge
-    jq.fn._plugin_ = function (options) {
+    jq.prototype._plugin_ = function (options) {
         return new _Plugin_(this, options).elements;
     };
  
